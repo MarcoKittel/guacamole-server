@@ -488,7 +488,7 @@ unsigned int guac_rdp_keyboard_get_modifier_flags(guac_rdp_keyboard* keyboard) {
     if (guac_rdp_keyboard_is_pressed(keyboard, GUAC_RDP_KEYSYM_LALT)
             && (guac_rdp_keyboard_is_pressed(keyboard, GUAC_RDP_KEYSYM_RCTRL)
                 || guac_rdp_keyboard_is_pressed(keyboard, GUAC_RDP_KEYSYM_LCTRL)))
-        //modifier_flags |= GUAC_RDP_KEYMAP_MODIFIER_ALTGR;
+        //modifier_flags |= GUAC_RDP_KEYMAP_MODIFIER_ALTGR; test
 
     return modifier_flags;
 
