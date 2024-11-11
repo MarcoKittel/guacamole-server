@@ -622,16 +622,16 @@ void guac_rdp_keyboard_update_modifiers(guac_rdp_keyboard* keyboard,
     }
 
     /* Press/release AltGr as needed */
-    if (set_flags & GUAC_RDP_KEYMAP_MODIFIER_ALTGR) {
-        //guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_ALTGR, 1, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
+    /*if (set_flags & GUAC_RDP_KEYMAP_MODIFIER_ALTGR) {
+        guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_ALTGR, 1, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
     }
     else if (clear_flags & GUAC_RDP_KEYMAP_MODIFIER_ALTGR) {
-        //guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_ALTGR, 0, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
+        guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_ALTGR, 0, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
         guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_LALT, 0, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
         guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_RALT, 0, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
         guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_LCTRL, 0, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
         guac_rdp_keyboard_update_keysym(keyboard, GUAC_RDP_KEYSYM_RCTRL, 0, GUAC_RDP_KEY_SOURCE_SYNTHETIC);
-    }
+    }*/
 
 }
 
